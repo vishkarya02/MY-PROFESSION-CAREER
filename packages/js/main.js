@@ -120,6 +120,7 @@ let swiperTestimonial = new Swiper(".testimonial__container", {
     el: ".swiper-pagination",
     clickable: true,
     dynamicBullets: true,
+    dynamicMainBullets: 3,
   },
 
   breakpoints: {
